@@ -1,0 +1,13 @@
+<!--page/home/home.wxml-->
+<text>home</text>
+
+<!-- 2.获取用户信息的方式 -->
+<button size='mini' 
+    open-type='getUserInfo' 
+    bindgetuserinfo="handleGetUserInfo">
+  获取授权
+</button>
+
+<!-- 3.展示用户信息的方法 -->
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>

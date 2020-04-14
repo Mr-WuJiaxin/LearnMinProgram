@@ -1,0 +1,10 @@
+<!--page/shopping/shopping.wxml-->
+<view>我是商品分类</view>
+
+<view>
+  <view>{{message}}</view>
+  <view>b</view>
+  <view>c</view>
+  <view>d</view>
+  <view>e</view>
+</view>

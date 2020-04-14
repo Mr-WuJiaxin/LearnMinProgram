@@ -1,5 +1,39 @@
 {
-  "pages":[
-    "page/Hello word/hello word"
-  ]
+  "pages": [
+    "page/home/home",
+    "page/Hello word/hello word",
+    "page/shopping/shopping"
+  ],
+  "sitemapLocation": "sitemap82.json",
+  "window": {
+    "navigationBarBackgroundColor": "#FF5777",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "欢迎界面",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#007DFD",
+    "list": [
+      {
+        "pagePath": "page/home/home",
+        "text": "主页",
+        "iconPath": "asstes/tabBar/home_1.png",
+        "selectedIconPath": "asstes/tabBar/home_2.png"
+      },
+      {
+        "pagePath": "page/Hello word/hello word",
+        "text": "菜单",
+        "iconPath": "asstes/tabBar/menu_1.png",
+        "selectedIconPath": "asstes/tabBar/menu_2.png"
+      },
+      {
+        "pagePath": "page/shopping/shopping",
+        "text": "商品",
+        "iconPath": "asstes/tabBar/shopping_1.png",
+        "selectedIconPath": "asstes/tabBar/shopping_2.png"
+      }
+    ]
+  }
 }
